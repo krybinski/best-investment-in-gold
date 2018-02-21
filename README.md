@@ -1,1 +1,1 @@
-# Best investment in gold during 5 years
+# Best investment in gold
