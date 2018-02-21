@@ -55,7 +55,7 @@ function showMessage($details) {
         ' on ' . $details['maxDate'] . ' you could earn ' . $earn . ' PLN';
 }
 
-function findBestMoment($years, $amount) {
+function findBestInvestmentDates($years, $amount) {
     $allPrices = getPrices($years);
     
     $prices = [];
@@ -94,4 +94,4 @@ function findBestMoment($years, $amount) {
 
 $years = 5;
 $investmentAmount = 600000;
-findBestMoment($years, $investmentAmount);
+findBestInvestmentDates($years, $investmentAmount);
